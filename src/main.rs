@@ -1,3 +1,4 @@
 fn main() {
-    println!("Hello, world!");
+    println!("Seki Go Engine CLI – WIP");
 }
+
