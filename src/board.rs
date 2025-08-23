@@ -1,7 +1,5 @@
 //! Board representation and utility functions.
 
-use crate::coord::Coord;
-
 /// Size of the Go board.
 #[derive(Debug, Clone, Copy, PartialEq, Eq, Hash)]
 pub enum BoardSize {
@@ -11,6 +9,7 @@ pub enum BoardSize {
 }
 
 impl BoardSize {
+    // mon comm de merde
     pub fn dim(self) -> usize {
         match self {
             BoardSize::N19 => 19,
@@ -28,6 +27,7 @@ pub struct Board {
 
 impl Board {
     /// Create a new empty board.
+    /// First parameter : Size (9x9, 13x13, 19x19)
     pub fn new(size: BoardSize) -> Self {
         Self { size }
     }

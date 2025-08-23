@@ -1,5 +1,3 @@
-// src/coord.rs
-
 //! Goban coordinates (A1, T19, etc.).
 
 /// Represents a coordinate on the goban (board).
